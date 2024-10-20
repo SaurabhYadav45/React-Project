@@ -1,0 +1,18 @@
+.productItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px;
+    margin-right: 10px;
+    background-color: aqua;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.productItem h2{
+    margin-right: 16px;
+    font-size: 26px;
+    color: red;
+    font: bold;
+}
