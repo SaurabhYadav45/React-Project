@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import Card from './Card';
 
 
-
 const Cards = (props) =>{
 
     let category = props.category;
@@ -16,16 +15,16 @@ const Cards = (props) =>{
 
             let allCourses = [];
             Object.values(courses).forEach((array) =>{
-            array.forEach((coursesData) => {
-                allCourses.push(coursesData);
+                array.forEach((coursesData) => {
+                    allCourses.push(coursesData);
+                });
             });
-        });
         return allCourses;
         }
         else{
             return courses[category];
         }
-        }
+    }
         
 
     return(

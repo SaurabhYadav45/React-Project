@@ -1,7 +1,4 @@
 
-
-
-
 const Filter = (props) =>{
 
     let category = props.category;
